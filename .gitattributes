@@ -1,0 +1,18 @@
+# Keep text consistent across Windows and Unix, including shell scripts.
+* text=auto eol=lf
+
+# Windows command scripts use CRLF in the working tree.
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files must not undergo text conversion.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.zip binary

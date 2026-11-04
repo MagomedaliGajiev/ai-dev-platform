@@ -1,0 +1,41 @@
+# Windows and macOS metadata
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+._*
+
+# Local editor state; shared VS Code configuration stays versioned.
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*.swo
+*~
+
+# Local environment and credentials; keep configuration examples.
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+
+# Local agent settings; project instructions and skills stay versioned.
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Generated output, logs, and temporary files
+/dist/
+/build/
+/out/
+coverage/
+playwright-report/
+test-results/
+*.log
+/tmp/
+/temp/
